@@ -13,3 +13,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Show Working Directory
       run: pwd
+    - name: create outside directory
+      run: mkdir ../../../testdir
